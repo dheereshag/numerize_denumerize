@@ -52,3 +52,6 @@ include = [
   "src/numerize_denumerize/**/*.py",
   "src/numerize_denumerize/py.typed",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/numerize_denumerize"]
